@@ -8,17 +8,21 @@ div {
 }
 
 #Menu {
-    height: 50px;
+    float: right;
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
 }
 
 #Header {
-    height: 150px;
+    height: 100px;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: #afafaf;
     line-height: 1.1em;
     letter-spacing: -0.04em;
     background: white;
+    padding-top: 10px;
 }
 
 #Sidebar {
