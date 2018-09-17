@@ -9,5 +9,9 @@
 6) Макс. к-сть кольорів та шрифтів - 4.
 7) CSS-стилі створити у окремому файлі.
 
-Макет головної сторінки:
-https://i.gyazo.com/34bed79296faa1379f232831e19aa380.png
+Розмітка виконана за допомогою twitter bootstrap 4:
+    Макет головної сторінки: https://i.gyazo.com/34bed79296faa1379f232831e19aa380.png
+    Макет розділу меню "About": https://i.gyazo.com/a5eaa3aa619705a956f072b69c735392.png
+    Макет розділу меню "Products": https://i.gyazo.com/57fde1d11180bc63b6adb8da9a14cfc3.png
+    Макет розділу меню "Contacts": https://i.gyazo.com/4181b1ffd039ac21aacf5c1f2021d42b.png
+    Макет розділу меню "History": https://i.gyazo.com/0f7d8a6dad2b531809a53fe49803a326.png
