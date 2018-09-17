@@ -3,4 +3,36 @@ body {
     padding-top: 50px;
 }
 
-.container {}
+.d-flex .p-2 {
+    border: 1px solid white;
+}
+
+.header {
+    letter-spacing: -0.2em;
+    display: inline;
+}
+
+strong {
+    font-size: 1.04em;
+}
+
+.footer-nav {
+    margin-left: 40%;
+    font-size: 1.05em;
+    letter-spacing: -0.04em;
+}
+
+.menu-ul {
+    margin-left: 25%;
+    margin-top: 3%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.footer-info {
+    margin-top: 5%;
+}
+
+img {
+    width: 60px;
+}
