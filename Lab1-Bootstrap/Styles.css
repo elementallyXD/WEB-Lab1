@@ -1,7 +1,6 @@
 body {
     background-color: grey;
+    padding-top: 50px;
 }
 
-.container {
-    border: 1px solid black;
-}
+.container {}
