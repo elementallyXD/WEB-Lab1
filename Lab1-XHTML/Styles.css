@@ -18,16 +18,21 @@ div {
     height: 100px;
     text-align: center;
     font-size: 2em;
-    color: #afafaf;
     line-height: 1.1em;
     letter-spacing: -0.04em;
     background: white;
     padding-top: 10px;
 }
 
+#Header a {
+    text-decoration: none;
+    color: #afafaf;
+}
+
 #Sidebar {
     float: right;
     width: 300px;
+    height: 100%;
 }
 
 #Sidebar p {
