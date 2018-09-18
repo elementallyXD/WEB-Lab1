@@ -1,5 +1,6 @@
 div {
     border: 1px solid black;
+    font-family: Courier New;
 }
 
 #Container {
@@ -112,4 +113,12 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+}
+
+#TextInContent {
+    font-family: Courier New;
+}
+
+img {
+    width: 60px;
 }
