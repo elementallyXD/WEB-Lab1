@@ -1,5 +1,11 @@
-Веб-дизайн.
-Лабараторна робота №1, створення статичного сайту, Варіант-2, виконана: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
+Веб-дизайн (3 курс).
+Лабараторна робота №1, "Створення Статичного Web-Сайту засобами мов HTML,CSS", Варіант-2, виконана: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
+
+Завдання на розмітку:
+<img src="https://i.gyazo.com/de91be876682b7001898152ecb3cd056.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 Коротко про завдання:
 1) Згідно макету головної сторінки Web-сайту виконати її розмітку.
 2) Меню сайту створити за допомогою списків.
@@ -10,6 +16,7 @@
 7) CSS-стилі створити у окремому файлі.
 
 Розмітка виконана за допомогою twitter bootstrap 4:
+
 Макет головної сторінки:
 <img src="https://i.gyazo.com/34bed79296faa1379f232831e19aa380.png "
      alt="Markdown Monster icon"
@@ -34,4 +41,34 @@
 <img src="https://i.gyazo.com/0f7d8a6dad2b531809a53fe49803a326.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
+Розмітка виконана за допомогою XHTML:
+
+Макет головної сторінки:
+<img src="https://i.gyazo.com/a022dab95883324d18186cd2e385af11.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+Макет розділу меню "About": 
+<img src="https://i.gyazo.com/6f755f5ca62897556200c8c22ff10adf.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+Макет розділу меню "Products": 
+<img src="https://i.gyazo.com/fb1c92ffa936692d15b818e28f8b48fd.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+Макет розділу меню "Contacts":
+<img src="https://i.gyazo.com/03b05d8b96c7951e27c48f2945afdb98.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+Макет розділу меню "History":
+<img src="https://i.gyazo.com/e0eb4e2d1338574af096baf3a5461099.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+     
+
 
