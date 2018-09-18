@@ -2,7 +2,7 @@
 Лабараторна робота №1, "Створення Статичного Web-Сайту засобами мов HTML,CSS", Варіант-2, виконана: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
 
 Завдання на розмітку:
-<img src="https://i.gyazo.com/de91be876682b7001898152ecb3cd056.jpg"
+<img src="https://i.gyazo.com/0c526eaf74b2ed265aff07591f66d312.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
