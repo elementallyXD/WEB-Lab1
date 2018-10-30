@@ -1,5 +1,5 @@
 Веб-дизайн (3 курс).
-Лабараторна робота №1, "Створення Статичного Web-Сайту засобами мов HTML,CSS", Варіант-2, виконана: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
+Лабараторна робота №1, "Створення Статичного Web-Сайту засобами мов HTML,CSS", Варіант-2, виконав: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
 
 Завдання на розмітку:
 <img src="https://i.gyazo.com/0c526eaf74b2ed265aff07591f66d312.png"
@@ -69,6 +69,18 @@
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
+Лабараторна робота №2, "Доступ до об’єктної моделі Web-документа засобами мови Javascript", Варіант-2, виконав: студент ФПМ, КВ-61, Бідяк Михайло Андрійович.
+     Завдання:
+<img src="https://i.gyazo.com/bdbd1484db6d42086ef516e59146dcce.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+Завдання виконано на чистому javascript, меню генерується за допомогою масиву обєктів. Меню доступне на усіх сторінках.
+
+Меню на сторінці: 
+<img src="https://i.gyazo.com/266a56d51b2dbc0fae7472b25772cd5c.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
      
 
 
