@@ -1,0 +1,169 @@
+div {
+    border: 1px solid black;
+    font-family: Courier New;
+}
+
+#Container {
+    width: 800px;
+    margin: auto;
+}
+
+#Menu {
+    float: right;
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+}
+
+#Header {
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.1em;
+    letter-spacing: -0.04em;
+    background: white;
+    padding-top: 10px;
+}
+
+#Header a {
+    text-decoration: none;
+    color: #afafaf;
+}
+
+#Sidebar {
+    float: right;
+    width: 300px;
+    height: 100%;
+}
+
+#Sidebar p {
+    padding-left: 5px;
+}
+
+#Footer {
+    height: 70px;
+    clear: both;
+}
+
+#Menu ul {
+    margin: 0 auto;
+    padding: 2px 0 0 0;
+    border-top: 1px dotted #afafaf;
+    border-bottom: 1px dotted #afafaf;
+    text-align: center;
+    width: 100%;
+}
+
+ul li {
+    margin: 0;
+    padding: 3px 0;
+    display: inline-block;
+}
+
+#Menu ul li a {
+    padding: 0 20px;
+    line-height: 40px;
+    color: #afafaf;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#Menu ul li a:hover,
+#Menu ul li a.active {
+    color: #333;
+}
+
+a.info {
+    background: url('Images/info.png') no-repeat left center;
+    background-size: 30px 30px;
+    background-position: 5px 15px;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px;
+}
+
+#Content LI a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0 10px 40px;
+    display: block;
+    color: #afafaf;
+    font-size: 103%;
+    border-bottom: 1px dotted #ccc;
+}
+
+#altmenu {
+    padding-left: 230px;
+    padding-bottom: 5px;
+}
+
+#Footer a {
+    color: #b86443;
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 90%;
+    padding: 0 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#TextInContent {
+    font-family: Courier New;
+}
+
+img {
+    width: 60px;
+}
+
+#MenuUl>li {
+    position: relative;
+}
+
+#DropDown>li {
+    display: block;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#DropDown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    background-color: rgb(246, 244, 244);
+}
+
+#VerticalMenu>li {
+    display: inline;
+    background-color: rgb(246, 244, 244);
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#VerticalMenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(246, 244, 244);
+}
+
+#VerticalMenu.active {
+    display: inline;
+}
+
+#DropDown.active {
+    display: block;
+}
