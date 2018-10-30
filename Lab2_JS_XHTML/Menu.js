@@ -127,9 +127,7 @@ var myModule = (function() {
     }
     return {
         DownMenu: dropDownListener,
-        VerticalMenu: vertMenuListener,
-        renderProductList: renderProductList,
-        Menu: MAP
+        VerticalMenu: vertMenuListener
     };
 }());
 
