@@ -78,10 +78,13 @@ _Коротко про завдання:
 
 *Завдання виконано на чистому javascript, меню генерується за допомогою масиву обєктів. Меню доступне на усіх сторінках.*:shipit:
 
-Меню на сторінці: 
+Меню на сторінці з XHTML розміткою: 
 <img src="https://i.gyazo.com/266a56d51b2dbc0fae7472b25772cd5c.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+
+Меню на сторінці з Bootstrap розміткою:
+![Alt Text](https://i.gyazo.com/4c2538da22f15b426bdaf07e2b97f0b4.png)
 
      
 
