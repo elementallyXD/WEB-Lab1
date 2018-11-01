@@ -2,53 +2,55 @@ var myModule = (function() {
     'use strict';
 
     var ul = document.createElement('ul');
-    ul.setAttribute('id', 'MenuUl');
+    ul.setAttribute('class', 'nav navbar-nav nav-pills nav-justified MenuUl');
     document.getElementById('Menu').appendChild(ul);
 
     var MAP = [{
-            title: "Main",
+            title: "Home",
             url: "index.html"
-        },
-
-        {
-            title: "About",
-            url: "About.html"
-        },
-
-        {
-            title: "Contacts",
-            url: "Contacts.html"
         },
 
         {
             title: "Products >",
             url: "#",
             child: [{
+                    title: "Strategy",
+                    url: "#"
+                },
+
+                {
                     title: "RPG >",
                     url: "#",
                     verticalMenu: [{
                             title: "AS:Origin",
-                            url: "ASOrigin.html"
+                            url: "#"
                         },
                         {
                             title: "AS:Odyssey",
-                            url: "ASOdyssey.html"
+                            url: "#"
                         }
                     ],
                 },
-                {
-                    title: "Strategy",
-                    url: "Strategy.html"
-                },
+
                 {
                     title: "Shooter",
-                    url: "Shooter.html"
+                    url: "#"
                 },
                 {
                     title: "List",
-                    url: "Products.html"
+                    url: "#"
                 }
             ],
+        },
+
+        {
+            title: "AboutUs",
+            url: "About.html"
+        },
+
+        {
+            title: "Contacts",
+            url: "Contacts.html"
         },
 
         {
@@ -62,6 +64,7 @@ var myModule = (function() {
 
     function renderProductList(element, index, arr) {
         var li = document.createElement('li');
+        li.setAttribute('class', 'nav-item');
 
         if (MAP[index].child != null) {
             li.setAttribute('id', 'menu');
@@ -69,7 +72,7 @@ var myModule = (function() {
 
         ul.appendChild(li);
 
-        li.innerHTML = "<a href='" + MAP[index].url + "'>" + MAP[index].title + "</a>";
+        li.innerHTML = "<a class='" + "nav-link" + "' href='" + MAP[index].url + "'>" + MAP[index].title + "</a>";
 
         if (MAP[index].child != null) {
             dropDownMenu(index);
@@ -84,8 +87,9 @@ var myModule = (function() {
         for (var iter = 0; iter < MAP[index].child.length; iter++) {
             var li = document.createElement('li');
             li.setAttribute('id', 'DropItem');
+            li.setAttribute('class', 'nav-item');
             ul.appendChild(li);
-            li.innerHTML = "<a href='" + MAP[index].child[iter].url + "'>" + MAP[index].child[iter].title + "</a>";
+            li.innerHTML = "<a class='" + "nav-link" + "' href='" + MAP[index].child[iter].url + "'>" + MAP[index].child[iter].title + "</a>";
 
             if (MAP[index].child[iter].verticalMenu != null) {
                 li.setAttribute('id', 'DropItemF');
@@ -102,8 +106,9 @@ var myModule = (function() {
         for (let vIter = 0; vIter < MAP[index].child[iter].verticalMenu.length; vIter++) {
             var li = document.createElement('li');
             li.setAttribute('id', 'VerticalItem');
+            li.setAttribute('class', 'nav-item');
             ul.appendChild(li);
-            li.innerHTML = "<a href='" + MAP[index].child[iter].verticalMenu[vIter].url + "'>" + MAP[index].child[iter].verticalMenu[vIter].title + "</a>";
+            li.innerHTML = "<a class='" + "nav-link" + "' href='" + MAP[index].child[iter].verticalMenu[vIter].url + "'>" + MAP[index].child[iter].verticalMenu[vIter].title + "</a>";
         }
     }
 
