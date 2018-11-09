@@ -15,7 +15,7 @@ var myModule = (function() {
             url: "#",
             dropMenu: [{
                     title: "Strategy",
-                    url: "#"
+                    url: "Strategy.html"
                 },
 
                 {
@@ -23,22 +23,22 @@ var myModule = (function() {
                     url: "#",
                     verticalMenu: [{
                             title: "AS:Origin",
-                            url: "#"
+                            url: "ASOrigin.html"
                         },
                         {
                             title: "AS:Odyssey",
-                            url: "#"
+                            url: "ASOdyssey.html"
                         }
                     ],
                 },
 
                 {
                     title: "Shooter",
-                    url: "#"
+                    url: "Shooter.html"
                 },
                 {
                     title: "List",
-                    url: "#"
+                    url: "Products.html"
                 }
             ],
         },
