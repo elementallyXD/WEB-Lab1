@@ -86,6 +86,12 @@ _Коротко про завдання:
 Меню на сторінці з Bootstrap розміткою:
 ![Alt Text](https://i.gyazo.com/4c2538da22f15b426bdaf07e2b97f0b4.png)
 
+## Лабараторна робота №3, "Web-server"
+Робота виконана за допомогою Nodejs+express, ajax, Bootstrap 4
+
+Меню на сторінці з Bootstrap розміткою:
+![Alt Text](https://i.gyazo.com/04e0b26c418746532fa22a48e61a0749.png)
+
      
 
 
