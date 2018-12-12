@@ -32,26 +32,11 @@ let myModule = (function() {
             li.setAttribute('id', 'VerticalElement');
             li.appendChild(ul);
             makeMenu(arr[i].verticalMenu, 0, ul);
+            vertMenuListener1(i);
         }
 
         i++;
         if (i < arr.length) makeMenu(arr, i, element);
-    }
-
-    function dropDownListener() {
-        // function openDropDownMenu() {
-        //     var drop = document.getElementsByClassName('DropMenu');
-
-        //     for (var i = 0; i < drop.length; i++) {
-        //         drop[i].classList.toggle("active");
-        //     }
-        // }
-
-        // var dropElement = document.getElementsByClassName('DropElement');
-
-        // for (var i = 0; i < dropElement.length; i++) {
-        //     dropElement[i].addEventListener("mouseenter", openDropDownMenu, false);
-        // }
     }
 
     function dropDownListener1(i) {
@@ -64,14 +49,12 @@ let myModule = (function() {
         dropElement[i].addEventListener("mouseenter", openDropDownMenu, false);
     }
 
-    function vertMenuListener() {
-        var VertMenu = document.getElementById('VerticalElement');
-        if (VertMenu)
-            VertMenu.addEventListener("mouseenter", openVerticalMenu);
-
+    function vertMenuListener1() {
         function openVerticalMenu() {
-            document.getElementById("VerticalMenu").classList.toggle("active")
+            document.getElementById('VerticalMenu').classList.toggle("active");
         }
+
+        document.getElementById('VerticalElement').addEventListener("mouseenter", openVerticalMenu);
     }
 
     function removeElement() {
@@ -81,8 +64,6 @@ let myModule = (function() {
 
     return {
         init: firstStep,
-        DownMenu: dropDownListener,
-        VerticalMenu: vertMenuListener,
         Menu: makeMenu,
         removeMenu: removeElement,
     };
