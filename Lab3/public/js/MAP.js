@@ -1,6 +1,10 @@
 var MAP = [{
         title: "Home",
-        url: "/"
+        url: "/",
+        dropMenu: [{
+            title: "Home1",
+            url: "#"
+        }]
     },
 
     {
@@ -9,6 +13,10 @@ var MAP = [{
         dropMenu: [{
                 title: "Strategy",
                 url: "/Strategy"
+            },
+            {
+                title: "home1",
+                url: "#"
             },
             {
                 title: "RPG >",
@@ -37,7 +45,11 @@ var MAP = [{
 
     {
         title: "About",
-        url: "/About"
+        url: "/About",
+        dropMenu: [{
+            title: "Home2",
+            url: "#"
+        }]
     },
 
     {

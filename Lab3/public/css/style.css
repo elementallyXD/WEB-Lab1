@@ -40,13 +40,13 @@ img {
     position: relative;
 }
 
-#DropMenu>li {
+.DropMenu>li {
     display: inline-block;
     font-weight: bold;
     margin: 10px 0px;
 }
 
-#DropMenu {
+.DropMenu {
     display: none;
     position: absolute;
     padding: 1px;
@@ -74,6 +74,6 @@ img {
     display: inline-flex;
 }
 
-#DropMenu.active {
+.DropMenu.active {
     display: inline-block;
 }

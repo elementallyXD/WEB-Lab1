@@ -19,9 +19,10 @@ let myModule = (function() {
 
         if (arr[i].dropMenu != null) {
             var ul = document.createElement('ul');
-            ul.setAttribute('id', 'DropMenu');
-            li.setAttribute('id', 'DropElement');
+            ul.setAttribute('class', 'DropMenu');
+            li.setAttribute('class', 'DropElement');
             li.appendChild(ul);
+            dropDownListener1(i);
             makeMenu(arr[i].dropMenu, 0, ul);
         }
 
@@ -38,13 +39,29 @@ let myModule = (function() {
     }
 
     function dropDownListener() {
-        var dropElement = document.getElementById('DropElement');
-        if (dropElement)
-            dropElement.addEventListener("mouseenter", openDropDownMenu);
+        // function openDropDownMenu() {
+        //     var drop = document.getElementsByClassName('DropMenu');
 
+        //     for (var i = 0; i < drop.length; i++) {
+        //         drop[i].classList.toggle("active");
+        //     }
+        // }
+
+        // var dropElement = document.getElementsByClassName('DropElement');
+
+        // for (var i = 0; i < dropElement.length; i++) {
+        //     dropElement[i].addEventListener("mouseenter", openDropDownMenu, false);
+        // }
+    }
+
+    function dropDownListener1(i) {
         function openDropDownMenu() {
-            document.getElementById("DropMenu").classList.toggle("active");
+            var drop = document.getElementsByClassName('DropMenu');
+            drop[i].classList.toggle("active");
         }
+
+        var dropElement = document.getElementsByClassName('DropElement');
+        dropElement[i].addEventListener("mouseenter", openDropDownMenu, false);
     }
 
     function vertMenuListener() {
