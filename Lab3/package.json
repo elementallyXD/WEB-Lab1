@@ -23,7 +23,7 @@
     "body-parser": "^1.18.3",
     "browserify-fs": "^1.0.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "jsdom": "^13.0.0",
     "node-fetch": "^2.3.0",
